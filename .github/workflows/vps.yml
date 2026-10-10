@@ -1,0 +1,11 @@
+name: VPS Ubuntu Gratis
+
+on: 
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Mengaktifkan Akses SSH Termius
+      uses: mxschmitt/action-tmate@v3
